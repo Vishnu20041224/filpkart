@@ -809,14 +809,17 @@ body {
     font-size: 13px;
     font-weight: 600;
  }
-
+/*
  .footer-2 .footer2-test p{
-     color: rgb(228, 220, 205);
+     color:gray;
      font-weight: 500;
      font-size: 16px;
  } 
-
+*/
 @media screen and (max-width:750px){
+    .footer-2{
+        background-color: rgb(0, 0, 0);
+     }
      .footer-1 .footer1-text{
         display: none;
      }  
@@ -832,4 +835,10 @@ body {
         line-height: 20px;
         margin: 0px 50px;
      } 
+     .about p{
+        color: white;
+        text-transform: capitalize;
+        font-size: 13px;
+        font-weight: 600;
+     }
 }
